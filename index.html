@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videoControl</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- <script src="js/js.js" defer></script>  -->
+    <!-- ctrl+마우스 좌클릭하면 src대로 폴더/파일 생성 -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <video autoplay muted loop id="myVideo" type="video/mp4">
+                    <source src="asset/notHero.mp4">
+                    Your Browser does NOT support HTML5 video.
+                </video>
+                <div class="content">
+                    <h1>HeadLine</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur!</p>
+                    <!-- lorem10 쓰고 엔터 누르면 이거 뜸. 숫자커질수록 길어져-->
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/js.js"></script> 
+</body>
+</html>
